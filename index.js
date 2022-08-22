@@ -4,7 +4,7 @@ import "dotenv/config"
 const app = express()
 
 app.get("/", (req, res) => {
-	res.send("Hello World")
+	res.send("Hello World this is an update")
 })
 
 const port = process.env.PORT || 5000
