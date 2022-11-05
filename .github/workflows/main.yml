@@ -17,7 +17,7 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - run: |
-          npm i
+          npm install -g latest
           pm2 stop 
           pm2 start
           pm2 save
